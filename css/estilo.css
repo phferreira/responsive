@@ -83,3 +83,11 @@ h1 {
     width: 24.6%;
   }
 }
+
+@media print {
+
+
+  footer,header{
+    display:none;
+  }
+}
