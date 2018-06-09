@@ -10,6 +10,11 @@
   text-align: center;
   border-radius: 4px;
   margin:0.2%;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .partA, .partB {
@@ -20,6 +25,11 @@
 .partC{
   background: #E6E221;
   height: 100px;
+}
+
+.campo{
+  width: 70%;
+  margin: 1%;
 }
 
 .partD, .partE, .partF{
@@ -44,7 +54,7 @@ h1 {
     height: 200px;
   }
 
-  .partD, .partE, .partF{
+  .partE, .partF{
     height: 100px;
   }
 
