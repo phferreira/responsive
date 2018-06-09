@@ -84,8 +84,9 @@ h1 {
   }
 }
 
-@media print {
 
+
+@media print {
 
   footer,header{
     display:none;
