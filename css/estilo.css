@@ -1,0 +1,74 @@
+.group{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.part{
+  width: 100%;
+  font-family: Helvetica;
+  text-align: center;
+  border-radius: 4px;
+  margin:0.2%;
+}
+
+.partA, .partB {
+  background: #FE9407;
+  height: 50px;
+}
+
+.partC{
+  background: #E6E221;
+  height: 100px;
+}
+
+.partD, .partE, .partF{
+  background: #3969BA;
+  height: 200px;
+}
+
+.partG, .partH, .partI, .partJ{
+  background: #9B9B9B;
+  height: 70px;
+}
+
+h1 {
+  color:#1A1A1A;
+  font-size: 1em;
+}
+
+
+
+@media (min-width: 480px) {
+  .partC{
+    height: 200px;
+  }
+
+  .partD, .partE, .partF{
+    height: 100px;
+  }
+
+  .partG, .partH, .partI, .partJ{
+    width: 100%;
+  }
+}
+
+
+
+@media (min-width: 900px) {
+  .partA, .partB {
+    width: 49.6%;
+  }
+
+  .partC{
+    height: 400px;
+  }
+
+  .partD, .partE, .partF{
+    height: 200px;
+    width: 32.9%;
+  }
+
+  .partG, .partH, .partI, .partJ{
+    width: 24.6%;
+  }
+}
